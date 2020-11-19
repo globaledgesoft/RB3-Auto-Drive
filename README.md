@@ -8,7 +8,7 @@
 * [Getting Started](#getting-started)
   * [Steps to build Shared Library (SNPE)](#Steps-to-build-Shared-Library-(SNPE))
   * [Steps to build Docker Image](#Steps-to-build-Docker-Image)
-  * [Steps to build Server Application for Amazon SageMaker Neo [Optional]:](#Steps-to-build-Server-Application-for-Amazon-SageMaker-Neo-[Optional]:)
+  * [Steps to build Server Application for Amazon SageMaker Neo Optional](#Steps-to-build-Server-Application-for-Amazon-SageMaker-Neo-Optional)
   * [Steps to Build ROS Setup [Optional]](#Steps-to-Build-ROS-Setup-[Optional])
   * [Steps to Build Main Application](#Steps-to-Build-Main-Application)
 * [Usage](#usage)
@@ -182,7 +182,7 @@ docker stop <old-container-ID>
 ```
 Note: You can skip next 2 instructions if the above steps are successful. Next 2 Instructions ie, Steps to build Server Application for Amazon SageMaker Neo and Steps to Build ROS Setup are for setting up 2 different docker for ROS and DLR.
 
-### Steps to build Server Application for Amazon SageMaker Neo [Optional]:
+### Steps to build Server Application for Amazon SageMaker Neo Optional
 1. You can get docker image tar file from dockerfiles branch of Git Repo
 ```sh
 git checkout dockerfiles 
