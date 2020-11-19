@@ -1,0 +1,33 @@
+{
+    "Requirements": {
+        "TargetPlatformOs": "LINUX",
+        "TargetPlatformArch": "ARM64"
+    },
+    "Compilation": {
+        "CreatedTime": 1603100818.027034
+    },
+    "Model": {
+        "Inputs": [
+            {
+                "name": "input",
+                "shape": [
+                    1,
+                    3,
+                    256,
+                    256
+                ]
+            }
+        ],
+        "Outputs": [
+            {
+                "dtype": "float32",
+                "shape": [
+                    1,
+                    1,
+                    256,
+                    256
+                ]
+            }
+        ]
+    }
+}
